@@ -17,8 +17,8 @@ A simple, web-based To-Do List to manage your tasks efficiently. Add, edit, comp
 
 ## Demo
 
-![To-Do List Screenshot](screenshot.png)  
-*Replace with your own screenshot if desired.*
+![To-Do List Screenshot](<img width="627" height="611" alt="image" src="https://github.com/user-attachments/assets/957a5a7d-e9c3-41e6-8f7b-fa7f2ca0025f" />
+)  
 
 ---
 
