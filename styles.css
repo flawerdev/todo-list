@@ -1,5 +1,5 @@
 body {
-    /* background: rgb(0,0,0); */
+    background: #e4e9f2;
     /* background: radial-gradient(circle, rgba(0,0,0,0.2) 0%, rgba(253,187,45,1) 100%); */
     font-family: Arial, sans-serif;
     text-align: center;
@@ -7,12 +7,12 @@ body {
 }
 
 #todo-container {
-    background:rgb(240, 194, 96) 100%;
+    background: #f5f7fa;
     width: 400px;
     margin: 0 auto;
-    border: 2px solid #8ea4ff;
+    border: 2px solid #d1d5db;
     padding: 20px;
-    color: white;
+    color: #2e2e3a;
     border-radius: 15px;
 }
 
@@ -29,7 +29,7 @@ h1 {
 #input-box {
   width: 200px;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #d1d5db;
   border-radius: 5px;
   margin-right: 5px;
   font-size: 20px;
@@ -42,11 +42,12 @@ h1 {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #6b92fc;
+  background-color: #fbbf24;
+  color: #ffffff;
 }
 
 #input-btn:hover {
-  background-color: #9eb7fd; 
+  background-color: #ffcb5c; 
 }
 
 ul {
@@ -58,26 +59,50 @@ ul {
 }
 
 li {
-border: 1px solid white;
-border-radius: 5px;
-margin-bottom: 10px;
-padding: 10px;
-margin-top: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #ffffff;
+  color: #2e2e3a;
 }
 
 .edit-btn, .delete-btn {
   float: right;
-  color:rgb(245, 241, 242);
+  color:#ffffff;
   cursor: pointer;
-  margin: 0px 5px;
+  margin: -3px 5px;
   border: none;
-  padding: 3px 10px;
-  background-color: #e2827b;
   border-radius: 5px;
+
+  height: 28px;
+  line-height: 28px;
+  padding: 0px 12px;
+  font-size: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 } 
+
+.edit-btn {
+  background-color: #3b82f6;
+} 
+
+.edit-btn:hover {
+  background-color: #60a5fa;
+}
+
+.delete-btn {
+  background-color: #ef4444;
+} 
+
+.delete-btn:hover {
+  background-color: #f87171;
+}
 
 .completed {
   text-decoration: line-through;
   color: gray;
   border: 1px solid gray;
+  background-color: #a7a7a785;
 }
